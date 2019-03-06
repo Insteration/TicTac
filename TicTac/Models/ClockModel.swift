@@ -27,7 +27,7 @@ class Clock: UIViewController {
         self.view.layer.addSublayer(myLayer)
     }
     
-    private func createWatchFace() {
+    func createWatchFace() {
         watchFace.backgroundColor = UIColor.clear.cgColor
         watchFace.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         watchFace.position = CGPoint(x: self.view.frame.size.width / 2, y: self.view.frame.size.height / 2)
@@ -52,7 +52,7 @@ class Clock: UIViewController {
         myLayer.addSublayer(minute)
     }
     
-    private func createSecondArrow() {
+    func createSecondArrow() {
         second.backgroundColor = Preferences.secondArrowColor
         second.anchorPoint = CGPoint(x: 0.5, y: 0)
         second.position = CGPoint(x: self.view.frame.size.width / 2, y: self.view.frame.size.height / 2)
@@ -128,10 +128,6 @@ class Clock: UIViewController {
         
     }
     
-    func createWatchFaces() {
-        createWatchFace()
-    }
-    
     func createClock() {
         createMyLayer()
         createHourArrow()
@@ -139,7 +135,4 @@ class Clock: UIViewController {
         createAnimationForEachLayer()
     }
     
-    func creatSecondOfArrow() {
-        createSecondArrow()
-    }
 }

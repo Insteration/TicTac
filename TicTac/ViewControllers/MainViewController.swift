@@ -16,8 +16,8 @@ class MainViewController: Clock {
         super.viewWillAppear(animated)
         view.backgroundColor = Preferences.background
         showActualTimeLabel.isHidden = Preferences.showHideDigitalTime
-        createWatchFaces()
-        creatSecondOfArrow()
+        createWatchFace()
+        createSecondArrow()
     }
     
     override func viewDidLoad() {
