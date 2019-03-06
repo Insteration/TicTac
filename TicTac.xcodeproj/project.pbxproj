@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9114943222FCD5C0096EB4F /* ClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9114942222FCD5C0096EB4F /* ClockModel.swift */; };
+		D911494B222FE5C10096EB4F /* PreferencesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911494A222FE5C10096EB4F /* PreferencesTableViewController.swift */; };
+		D911494E222FE9320096EB4F /* ChangeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911494D222FE9320096EB4F /* ChangeColorViewController.swift */; };
 		D91FBAFD222F1BD000D4BFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FBAFC222F1BD000D4BFC4 /* AppDelegate.swift */; };
-		D91FBAFF222F1BD000D4BFC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FBAFE222F1BD000D4BFC4 /* ViewController.swift */; };
+		D91FBAFF222F1BD000D4BFC4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91FBAFE222F1BD000D4BFC4 /* MainViewController.swift */; };
 		D91FBB02222F1BD000D4BFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91FBB00222F1BD000D4BFC4 /* Main.storyboard */; };
 		D91FBB04222F1BD200D4BFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91FBB03222F1BD200D4BFC4 /* Assets.xcassets */; };
-		D91FBB07222F1BD200D4BFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91FBB05222F1BD200D4BFC4 /* LaunchScreen.storyboard */; };
-		D91FBB0F222F1C3E00D4BFC4 /* WatchFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D91FBB0E222F1C3D00D4BFC4 /* WatchFace.jpg */; };
+		D9D4C306222FED83009C34B2 /* PreferencesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4C305222FED83009C34B2 /* PreferencesModel.swift */; };
+		D9D4C30B2230039B009C34B2 /* WatchFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4C30A2230039B009C34B2 /* WatchFaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9114942222FCD5C0096EB4F /* ClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockModel.swift; sourceTree = "<group>"; };
+		D911494A222FE5C10096EB4F /* PreferencesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewController.swift; sourceTree = "<group>"; };
+		D911494D222FE9320096EB4F /* ChangeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorViewController.swift; sourceTree = "<group>"; };
 		D91FBAF9222F1BD000D4BFC4 /* TicTac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91FBAFC222F1BD000D4BFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D91FBAFE222F1BD000D4BFC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91FBAFE222F1BD000D4BFC4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D91FBB01222F1BD000D4BFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D91FBB03222F1BD200D4BFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D91FBB06222F1BD200D4BFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91FBB08222F1BD200D4BFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D91FBB0E222F1C3D00D4BFC4 /* WatchFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WatchFace.jpg; sourceTree = "<group>"; };
+		D9D4C305222FED83009C34B2 /* PreferencesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesModel.swift; sourceTree = "<group>"; };
+		D9D4C30A2230039B009C34B2 /* WatchFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9114946222FE5370096EB4F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D91FBAFE222F1BD000D4BFC4 /* MainViewController.swift */,
+				D911494A222FE5C10096EB4F /* PreferencesTableViewController.swift */,
+				D911494D222FE9320096EB4F /* ChangeColorViewController.swift */,
+				D9D4C30A2230039B009C34B2 /* WatchFaceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9114947222FE54D0096EB4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D91FBB00222F1BD000D4BFC4 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9114948222FE5610096EB4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D91FBB03222F1BD200D4BFC4 /* Assets.xcassets */,
+				D91FBB08222F1BD200D4BFC4 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9114949222FE5880096EB4F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D91FBAFC222F1BD000D4BFC4 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		D911494C222FE5D10096EB4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9114942222FCD5C0096EB4F /* ClockModel.swift */,
+				D9D4C305222FED83009C34B2 /* PreferencesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D91FBAF0222F1BD000D4BFC4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +107,11 @@
 		D91FBAFB222F1BD000D4BFC4 /* TicTac */ = {
 			isa = PBXGroup;
 			children = (
-				D91FBAFC222F1BD000D4BFC4 /* AppDelegate.swift */,
-				D91FBAFE222F1BD000D4BFC4 /* ViewController.swift */,
-				D91FBB00222F1BD000D4BFC4 /* Main.storyboard */,
-				D91FBB03222F1BD200D4BFC4 /* Assets.xcassets */,
-				D91FBB05222F1BD200D4BFC4 /* LaunchScreen.storyboard */,
-				D91FBB08222F1BD200D4BFC4 /* Info.plist */,
-				D91FBB0E222F1C3D00D4BFC4 /* WatchFace.jpg */,
+				D9114949222FE5880096EB4F /* App Delegate */,
+				D911494C222FE5D10096EB4F /* Models */,
+				D9114948222FE5610096EB4F /* Supporting Files */,
+				D9114946222FE5370096EB4F /* ViewControllers */,
+				D9114947222FE54D0096EB4F /* Views */,
 			);
 			path = TicTac;
 			sourceTree = "<group>";
@@ -125,9 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91FBB07222F1BD200D4BFC4 /* LaunchScreen.storyboard in Resources */,
 				D91FBB04222F1BD200D4BFC4 /* Assets.xcassets in Resources */,
-				D91FBB0F222F1C3E00D4BFC4 /* WatchFace.jpg in Resources */,
 				D91FBB02222F1BD000D4BFC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91FBAFF222F1BD000D4BFC4 /* ViewController.swift in Sources */,
+				D911494B222FE5C10096EB4F /* PreferencesTableViewController.swift in Sources */,
+				D91FBAFF222F1BD000D4BFC4 /* MainViewController.swift in Sources */,
+				D911494E222FE9320096EB4F /* ChangeColorViewController.swift in Sources */,
+				D9114943222FCD5C0096EB4F /* ClockModel.swift in Sources */,
+				D9D4C306222FED83009C34B2 /* PreferencesModel.swift in Sources */,
+				D9D4C30B2230039B009C34B2 /* WatchFaceViewController.swift in Sources */,
 				D91FBAFD222F1BD000D4BFC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,14 +205,6 @@
 				D91FBB01222F1BD000D4BFC4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D91FBB05222F1BD200D4BFC4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D91FBB06222F1BD200D4BFC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,8 +331,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4FXKBHXYA;
-				INFOPLIST_FILE = TicTac/Info.plist;
+				DEVELOPMENT_TEAM = G82CYC7M5V;
+				INFOPLIST_FILE = "$(SRCROOT)/TicTac/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +349,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4FXKBHXYA;
-				INFOPLIST_FILE = TicTac/Info.plist;
+				DEVELOPMENT_TEAM = G82CYC7M5V;
+				INFOPLIST_FILE = "$(SRCROOT)/TicTac/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
